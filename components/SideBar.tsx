@@ -11,35 +11,35 @@ import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 const links = [
   {
     text:'Dashboard',
-    icon: <DashboardIcon/>
+    icon: <DashboardIcon className={styles.icon}/>
   },
   {
     text:'Users',
-    icon: <GroupIcon/>
+    icon: <GroupIcon className={styles.icon}/>
   },
   {
     text:'Products',
-    icon: <Inventory2Icon/>
+    icon: <Inventory2Icon className={styles.icon}/>
   },
   {
     text:'Statistics',
-    icon: <AnalyticsIcon/>
+    icon: <AnalyticsIcon className={styles.icon}/>
   },
   {
     text:'Delivery',
-    icon: <DeliveryDiningIcon/>
+    icon: <DeliveryDiningIcon className={styles.icon}/>
   },
   {
     text:'Notifications',
-    icon: <NotificationsIcon/>
+    icon: <NotificationsIcon className={styles.icon}/>
   },
   {
     text:'System health',
-    icon: <MonitorHeartIcon/>
+    icon: <MonitorHeartIcon className={styles.icon}/>
   },
   {
     text:'Profil',
-    icon: <PersonIcon/>
+    icon: <PersonIcon className={styles.icon}/>
   },
   {
     text:'Logout',
@@ -77,7 +77,7 @@ export const SideBar = () => {
                     <>
                       {
                         section&&(
-                          <p className={styles.title}>{section}</p>
+                          <p className={styles.title}></p>
                         )
                       }
                       <li>

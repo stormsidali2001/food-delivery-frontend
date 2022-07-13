@@ -43,7 +43,7 @@ const links = [
   },
   {
     text:'Logout',
-    icon: <MeetingRoomIcon/>
+    icon: <MeetingRoomIcon className={styles.icon}/>
   },
 
 ]
@@ -77,7 +77,7 @@ export const SideBar = () => {
                     <>
                       {
                         section&&(
-                          <p className={styles.title}></p>
+                          <p className={styles.title}>{section}</p>
                         )
                       }
                       <li>

@@ -18,7 +18,23 @@
     .center{
         padding: 10px;
         ul{
-            
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color:rgb(139, 125, 125);
+                margin: 15px 0;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 6px 4px;
+                column-gap: 5px;
+                &:hover{
+                    background-color:rgba(42, 30, 151, 0.473);
+                    cursor: pointer;
+                }
+            }
+
         }
     }
     .bottom{

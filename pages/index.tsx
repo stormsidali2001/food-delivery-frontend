@@ -26,6 +26,9 @@ const Home: NextPage = () => {
             <Featured/>
             <Chart/>
         </div>
+        <div className={styles.list}>
+          <div className={styles.title}>Latest Transactions</div>
+        </div>
       </main>
       
     

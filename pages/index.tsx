@@ -1,5 +1,10 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+import dynamic from 'next/dynamic' 
+const Chart = dynamic(
+  import("../components/Chart"),
+  { ssr: false }
+);
+import Featured from '../components/Featured'
 import Navbar from '../components/Navbar'
 import { SideBar } from '../components/SideBar'
 import Widget from '../components/Widget'
@@ -16,7 +21,10 @@ const Home: NextPage = () => {
           <Widget type="order"/>
           <Widget type="earning"/>
           <Widget type="balance"/>
-
+        </div>
+        <div className={styles.charts}>
+            <Featured/>
+            <Chart/>
         </div>
       </main>
       

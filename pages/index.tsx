@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 import { SideBar } from '../components/SideBar'
 import styles from '../styles/Home.module.scss'
 
@@ -8,7 +9,8 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <SideBar/>
       <main className={styles.main}>
-
+        <Navbar/>
+        home 
       </main>
       
     

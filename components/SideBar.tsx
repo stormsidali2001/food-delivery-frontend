@@ -91,7 +91,12 @@ export const SideBar = () => {
             </ul>
             
        </div>
-       <div className={styles.bottom}></div>
+       <div className={styles.bottom}>
+        <div className={styles.colorOption}></div>
+        <div className={styles.colorOption}></div>
+        <div className={styles.colorOption}></div>
+
+       </div>
 
     </div>
   )

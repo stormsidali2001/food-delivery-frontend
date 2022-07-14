@@ -10,7 +10,9 @@ const Home: NextPage = () => {
       <SideBar/>
       <main className={styles.main}>
         <Navbar/>
-        home 
+        <div className={styles.widgets}>
+
+        </div>
       </main>
       
     

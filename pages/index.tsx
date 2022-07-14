@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { SideBar } from '../components/SideBar'
+import Widget from '../components/Widget'
 import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
@@ -11,6 +12,10 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Navbar/>
         <div className={styles.widgets}>
+          <Widget/>
+          <Widget/>
+          <Widget/>
+          <Widget/>
 
         </div>
       </main>

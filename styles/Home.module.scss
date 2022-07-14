@@ -2,7 +2,10 @@
   display: flex;
   .main{
     flex:6;
-  
+    .widgets{
+      display: flex;
+      gap:20px;      
+    }
   }
   
 }

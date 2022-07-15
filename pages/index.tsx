@@ -7,6 +7,7 @@ const Chart = dynamic(
 import Featured from '../components/Featured'
 import Navbar from '../components/Navbar'
 import { SideBar } from '../components/SideBar'
+import Table from '../components/Table';
 import Widget from '../components/Widget'
 import styles from '../styles/Home.module.scss'
 
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.list}>
           <div className={styles.title}>Latest Transactions</div>
+          <Table/>
         </div>
       </main>
       

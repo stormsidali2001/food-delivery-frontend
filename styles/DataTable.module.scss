@@ -1,0 +1,23 @@
+.container{
+    height: 600px;
+    padding: 20px;
+    .cellAction{
+        display: flex;
+        gap:20px;
+        align-items: center;
+        .viewButton,.deleteButton{
+            padding: 2px 6px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .viewButton{
+            border:1px solid green;
+            color: green;
+        }
+        .deleteButton{
+            border:1px solid red;
+            color:red;
+        }
+
+    }
+}
